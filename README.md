@@ -127,10 +127,29 @@ EDA
 
 - 활용 가능한 layers들을 뽑고 학습에 이용한 몇개의 layer를 랜덤하게 뽑아서 더 많은 정보를 활용함
 - 비슷하게 다양한 IMAGE SIZE, STRIDE SIZE, CROP SIZE를 활용하여 더 다양한 이미지 형태를 모델이 학습하게 함
+  - 224 * 224
+  - 256 * 256
+  - 384 * 384
+  - 512 * 512
+  - 1024 * 1024
+  - ...
 - 다양한 모델들을 ensemble하여 최종 점수를 끌어 올린 점
-  - 다양한 모델을 활용하지 못한 점이 아쉬움
-  - 
+  - segformer
+  - resnet50
+  - convnext_tiny
+  - swinv2 
+  - ...
+- 다양한 augmentation을 활용
+  - cutmix
+  - mixup
+  - manifold mixup
+  - mosaic
+  - ...
 - EMA와 같은 기법들을 활용하여 성능을 상승시킴 
+  - tta
+  - ensemble
+  - amp
+  - ...
 
 <br>
 
